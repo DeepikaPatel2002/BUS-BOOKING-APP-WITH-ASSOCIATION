@@ -24,7 +24,7 @@ app.use(express.json());
 
 
 
-db.sync({force:true})
+db.sync({force:false})
 .then(()=>{
 
     console.log('Database is connected and tables created')
